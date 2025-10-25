@@ -8,5 +8,6 @@ setup(name='unifi-hotspot-logger',
       author_email='thomas.weissgerber97@gmail.com',
       install_requires=[
           'flask',
+          'markupsafe',
       ],
       zip_safe=False)
